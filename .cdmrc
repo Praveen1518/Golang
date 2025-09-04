@@ -1,0 +1,2 @@
+tabs: ["main.go"]
+run-button: go run main.go
