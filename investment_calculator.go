@@ -17,7 +17,8 @@ func main() {
 
     furtureValue:=float64(investmentAmount) *math.Pow(1+expetcedReturnRate /100,float64(year))
     futureRealValue := furtureValue/math.Pow(1+inflationRate/100,year)
-
+    fmt.Print("furtureValue")
     fmt.Println(furtureValue)
+    fmt.Print("futureRealValue")
     fmt.Println(futureRealValue)
 }
